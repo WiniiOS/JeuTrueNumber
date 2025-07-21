@@ -140,7 +140,7 @@ export default function AuthTabs() {
                 value={registerData.password}
                 onChange={(e) => setRegisterData({...registerData, password: e.target.value})}
                 required
-                placeholder="Mindourou5"
+                placeholder="MotDePasse2"
               />
               <Form.Text className="text-muted">
                 6 caractères minimum
